@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+table{
+  width: 80%;
+  height: auto;
+  font-family: 'Roboto Condensed' ;
+  border: 2px solid #ffc42f;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+  object-position: center;
+}
+td{
+  background-color: #33215a;
+  color:white;
+  border: 1px solid #ffc42f;
+  padding: 20px;
+  text-align: left;
+}
+tr th{
+  color: black;
+  background-color: #ffc42f;
+  text-align: center;
+  padding: 20px;
+}
+tr th:nth-of-type(2){
+  background: #987825;
+}
+
+tr td:hover{
+  transform: scale(1.1);
+}
